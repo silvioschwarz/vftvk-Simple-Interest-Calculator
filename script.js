@@ -8,7 +8,7 @@ function compute()
     //Check whether principal is > 0 and focus on pricipal
     if (principal <= 0) {
         alert("Enter a positive number");
-        principal.focus();
+        document.getElementById("principal").focus();
         return false;
     }
 
